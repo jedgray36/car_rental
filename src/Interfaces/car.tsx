@@ -1,8 +1,12 @@
 
 export interface car {
-    make: string,
-    model: string,
-    color: string,
-    horsePower: number,
-    convertable: boolean
+    Name: string,
+    Miles_per_Gallon: string,
+    Cylinders: string,
+    Displacement: number,
+    Horsepower: number,
+    Weight_in_lbs: number,
+    Acceleration: number,
+    Year: string,
+    Origin: string
 }
